@@ -22,9 +22,6 @@ class FixedHeader extends Component {
 
             <Menu.Menu position='right'>
 
-              <Menu.Item as='a'>
-                <Icon inverted  fitted name='facebook f' />
-              </Menu.Item>
               <Menu.Item name='github' href='//github.com/wangxx1412/myweb'>
                 <Icon inverted  fitted name='github' />
               </Menu.Item>
