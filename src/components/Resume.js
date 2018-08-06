@@ -18,7 +18,6 @@ const Resume = () => {
   return (
     <div>
        <Container style={{ marginTop: '7em' }}>
-         <Header as='h1'>Resume</Header>
          <Grid>
            <Grid.Row>
             <Grid.Column width={5}>
@@ -118,10 +117,16 @@ const Resume = () => {
                 <Label as='a'>CSS</Label>
                 <Label as='a'>JavaScript</Label>
                 <Label as='a'>React</Label>
+                <Label as='a'>Redux</Label>
+                <Label as='a'>SASS</Label>
+                <Label as='a'>PostCSS</Label>
                 <Label as='a'>SemanticUI</Label>
+                <Label as='a'>MaterialUI</Label>
                 <Label as='a'>Node.js</Label>
                 <Label as='a'>Express</Label>
                 <Label as='a'>MongoDB</Label>
+                <Label as='a'>Webpack</Label>
+                <Label as='a'>Sketch</Label>
                 <Label as='a'>Git</Label>
                 <Label as='a'>Gulp</Label>
                 <Label as='a'>JQuery</Label>
