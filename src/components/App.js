@@ -1,9 +1,7 @@
 import React, { Component } from "react";
 import { BrowserRouter, Route } from "react-router-dom";
 import Header from "./Header";
-import Footer from "./Footer";
 import Resume from "./Resume";
-import Blog from "./app/Blog";
 
 class App extends Component {
 
@@ -13,9 +11,7 @@ class App extends Component {
         <BrowserRouter>
           <div>
             <Header />
-            <Route exact path="/" component={Blog}/>
-            <Route exact path="/resume" component={Resume}/>
-            <Footer />
+            <Resume />
           </div>
         </BrowserRouter>
       </div>

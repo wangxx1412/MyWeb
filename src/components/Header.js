@@ -13,12 +13,9 @@ class FixedHeader extends Component {
         <Menu size="large" fixed='top' inverted>
           <Container>
             <Menu.Item as='a' header>
-              myBING
+              myResume
             </Menu.Item>
 
-            <Menu.Item as='a'>Blog</Menu.Item>
-
-            <Menu.Item as='a'>Resume</Menu.Item>
 
             <Menu.Menu position='right'>
 
@@ -30,14 +27,8 @@ class FixedHeader extends Component {
               </Menu.Item>
 
               <Menu.Item>
-                <Button size="small" inverted color="blue">
-                  Sign Up
-                </Button>
-              </Menu.Item>
-
-              <Menu.Item>
-                <Button size="small" inverted color="grey">
-                  Login
+                <Button size="small" href='mailto:wangxiaoxuan48692gmail.com' inverted color="blue">
+                  Contact Me
                 </Button>
               </Menu.Item>
 
